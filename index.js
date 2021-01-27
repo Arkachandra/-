@@ -12,4 +12,4 @@ client.on("massage", massage => {
         if(massage.channel.send(`pong - ${client.ws.ping}`)
     }
 })
-client.login("ODAzNTY3ODQyNTExMjkwMzc4.YA_q3w.hiO5Pl-QXdxBVMeeGz28zurZiMQ")
+client.login("process.env.BOT_TOKEN")
