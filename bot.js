@@ -13,9 +13,7 @@ bot.on('message', message =>{
         if(msg.startsWith('!', 0)){
             if(msg === prefix + "bang" && message.channel.id === "803701358221328444"){
                 message.channel.send('BOOM!!!!!') // Sends a message to the channel, with the content
-            }
-            else{
-                message.channel.send("Hey, I only understand !bang right now. More will be added when my creator is free. :) ")
+            }, I only understand !bang right now. More will be added when my creator is free. :) ")
             }
         }
         else{
